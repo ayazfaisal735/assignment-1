@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;900&family=Merriweather:wght@400;900&family=Open+Sans:wght@400;600;800&display=swap');
-
+/* common css start  */
 * {
       margin: 0;
       padding: 0;
@@ -69,6 +69,8 @@ button{
 }
 
 /* common css end */
+
+/* banner section start here */
 #banner {
       background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, -0.4)), url(./../Images/Banner\ Image.png);
       background-repeat: no-repeat;
@@ -89,7 +91,11 @@ button{
 
 #banner .banner-caption h3 {
       font-size: 32px;
+      font-weight: 400;
 }
+/* banner section end */
+
+/* catagory section start here */
 
 #catagory {
       justify-content: center;
@@ -123,7 +129,9 @@ button{
       font-weight: 700;
       margin-bottom: 48px;
 }
+/* catagory end here */
 
+/* party section start */
 #party {
       color: #FFF;
       background-image: url(./../Images/Vectorrr.png);
@@ -140,7 +148,8 @@ button{
 #party .banner-caption p {
       margin: 24px 0 48px 0;
 }
-
+/* party section end */
+/* park section start here */
 #park-hotel {
       margin: 120px 0 0 0;
       border-radius: 18px;
@@ -172,3 +181,4 @@ button{
       color: #070211;
       border: 2px solid #070211;
 }
+/* park section end here */
