@@ -6,9 +6,6 @@
       outline: 0;
       box-sizing: border-box;
 }
-
-body {}
-
 .container {
       /* width: 82%; */
       width: 1320px;
@@ -253,6 +250,7 @@ button{
       right: 279px;
 
 }
+/* gifsts section start */
 #gifts{
       margin-top: 120px;
 }
@@ -284,6 +282,7 @@ button{
 #gifts .gifts-pic .gifts-row-2 img:nth-child(2){
       margin: 0 18px;
 }
+/* subscribe section start */
 #subscribe{
       text-align: center;
       background-color:#fff2f2;
@@ -319,6 +318,7 @@ button{
       color: #FFF;
       border-radius: 0 50px 50px 0;
 }
+/* footer section start */
 footer{
       background: #070211;
       color: #FFF;
@@ -346,5 +346,5 @@ footer #last{
       padding-top: 50px;
       padding-bottom: 120px;
 }
-
+/* footer section close here */
 
